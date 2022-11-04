@@ -1,13 +1,79 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Fonts add */
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('./fonts/CeraPro-Black.eot');
+  src: url('./fonts/CeraPro-Black.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/CeraPro-Black.woff2') format('woff2'),
+      url('./fonts/CeraPro-Black.woff') format('woff'),
+      url('./fonts/CeraPro-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('./fonts/CeraPro-Medium.eot');
+  src: url('./fonts/CeraPro-Medium.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/CeraPro-Medium.woff2') format('woff2'),
+      url('./fonts/CeraPro-Medium.woff') format('woff'),
+      url('./fonts/CeraPro-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('./fonts/CeraPro-Regular.eot');
+  src: url('./fonts/CeraPro-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/CeraPro-Regular.woff2') format('woff2'),
+      url('./fonts/CeraPro-Regular.woff') format('woff'),
+      url('./fonts/CeraPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('./fonts/CeraPro-Bold.eot');
+  src: url('./fonts/CeraPro-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/CeraPro-Bold.woff2') format('woff2'),
+      url('./fonts/CeraPro-Bold.woff') format('woff'),
+      url('./fonts/CeraPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: 'Cera Pro', sans-serif;
+}
+
+:root {
+  --width: 1200px;
+}
+
+.to-center {
+  text-align: center;
+}
+
+.to-uppercase {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
 }
